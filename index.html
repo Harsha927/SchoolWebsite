@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>School website</title>
+	<meta name="description" content="mock school website">
+	<meta name="keywords" content="school,website,study,education,learning">
+	<meta name="charset" charset="utf-8">
+	<meta name="viewport" content="width=device-width , intial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+	<nav>
+		<table>
+			<tr>
+				<th>
+					<td>
+						<img src="logo.png">
+					</td>
+				</th>
+				<th>
+					<td style="float:center;">
+						<button>home</button>
+						<button>about</button>
+						<button>login</button>
+						<p id="reg">
+							new student register here
+						</p>
+					</td>
+				</th>
+			</tr>
+		</table>
+	</nav>
+	<div style="">
+	<div>
+  <img class="mySlides" src="1.jpg">
+  <img class="mySlides" src="2.jpg">
+  <img class="mySlides" src="3.jpg">
+  <img class="mySlides" src="4.jpg">
+</div>
+<div>
+	<ul id="navbar">
+		<div class="dropdown">
+			<li class="dropbtn">ABOUT</li>
+				<div class="dropdown-content">
+					<a href="#">history</a>
+					<a href="#">vision</a>
+				</div>
+		</div>
+		<div class="dropdown">
+			<li class="dropbtn">ADMISSIONS</li>
+				<div class="dropdown-content">
+					<a href="#">admission process</a>
+					<a href="#">enquiry</a>
+					<a href="#">online exam</a>
+					<a href="#">academic calender</a>
+				</div>
+		</div>
+		<div class="dropdown">
+			<li class="dropbtn">ACHIVEMENTS</li>
+				<div class="dropdown-content">
+					<a href="#">statelevel</a>
+					<a href="#">national level</a>
+				</div>
+		</div>
+		<div class="dropdown">
+			<li class="dropbtn">EVENTS</li>
+				<div class="dropdown-content">
+					<a href="#">annual fest</a>
+					<a href="#">farewell</a>
+					<a href="#">cultural fest</a>
+					<a href="#">childrens day</a>
+				</div>
+		</div>
+		<div class="dropdown">
+			<li class="dropbtn">SPORTS</li>
+				<div class="dropdown-content">
+					<a href="#">games</a>
+					<a href="#">gallery</a>
+				</div>
+		</div>
+		<div class="dropdown">
+			<li class="dropbtn">CAMPUS</li>
+				<div class="dropdown-content">
+					<a href="#">Library</a>
+					<a href="#">Lab</a>
+					<a href="#">Mess</a>
+					<a href="#">hostels</a>
+				</div>
+		</div>
+		<div class="dropdown">
+			<li class="dropbtn">BRANCHES</li>
+				<div class="dropdown-content">
+					<a href="#">List</a>
+				</div>
+		</div>
+	</ul>
+	<p ></p>
+</div>
+</div>
+<div>
+	<table>
+		<tr>
+			<td width="60%">
+				<h1 align="center">ABOUT</h1>
+			</td>
+			<td>
+				<h1 align="center">NOTICE BOARD</h1>
+			</td>
+		</tr>
+	</table>
+</div>
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style= "width:100%;height:500px";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>

@@ -1,21 +1,28 @@
 nav{
-	background-color: grey;
+	background-color: #121212;
 	margin: -2px -2px 0px -2px;
 	border: 2px;
 }
 table{
 	width: 100%;
-	margin-bottom: 10px;
+	margin-bottom: 0.1px;
 }
-button{
-	border-radius: 10px;
-	padding: 10px 20px 10px 20px;
-	background-color: orange;
+#nava a{
+	border-radius: 8px;
+	padding: 5px 10px 5px 10px;
+	background-color: #f6ed80;
 	margin: 5px 0 0 0;
+	text-decoration: none;
 }
 #reg{
 	padding: 0px;
 	margin: 2px;
+	font-size: 11px;
+	color: red;
+}
+#reg a
+{
+	padding: 0px;
 }
 #navbar{
 	list-style:none;
@@ -49,7 +56,7 @@ button{
 
 .dropdown-content {
     display: none;
-    position: fixed;
+    position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -64,7 +71,7 @@ button{
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: blue;}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -73,3 +80,82 @@ button{
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+#notice td{
+	padding-bottom: 73px;
+	text-align: center;
+}
+.about{
+	padding: 20px;
+}
+.about h3{
+	background-color: #121212;
+	color: red;
+	border-radius: 8px;
+}
+#notice h3{
+	background-color: #121212;
+	color: red;
+	border-radius: 8px;
+}
+.city{
+ margin-top: 30px;
+    margin-bottom: 400px;
+    margin-right: 300px;
+    margin-left: 300px;
+     background-color: white;
+     padding: 20px;
+ }
+ .city label{
+    font-size:24px;
+    }
+
+    .formcontainer{
+    border-radius:1em;
+	background-color:white;
+	width:25%;
+	position:fixed;
+    top: 50%;
+	left:50%;
+	margin-top: -14em; 
+    margin-left: -14em;
+}
+#l1
+{
+	background-color: black;
+	color: white;
+	padding: 10px;
+	margin: 5px;
+}
+#l2
+{
+	background-color: black;
+	color: white;
+	padding: 10px;
+	margin: 5px;
+}
+.city h3{
+	background-color: #121212;
+	color: red;
+	border-radius: 8px;
+}
+#query{
+	 margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+    background-image:url('bgimg1.jpg')
+    }
+    
+ #query label{
+    font-size:18px;
+    color: white;
+    }
+    .pavan{
+margin-top: 100px;
+    margin-bottom: 400px;
+    margin-right: 200px;
+    margin-left: 200px;
+
+border-style: solid;
+    border-width: 2px;
+ }

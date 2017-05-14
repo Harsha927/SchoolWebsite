@@ -15,97 +15,121 @@
 			<tr>
 				<th>
 					<td>
-						<img src="logo.png">
+						<img class="logo" src="images/vlogo.png">
 					</td>
 				</th>
 				<th>
 					<td style="float:center;">
-						<button>home</button>
-						<button>about</button>
-						<button>login</button>
+					<div id="nava">
+						<a href="index.html">home</a>
+						<a href="contactus.html">contactus</a>
+						<a href="login.html">login</a>
+						</div>
 						<p id="reg">
-							new student register here
+							new student?<a href="register.html">register here</a>
 						</p>
 					</td>
 				</th>
 			</tr>
 		</table>
 	</nav>
-	<div style="">
 	<div>
-  <img class="mySlides" src="1.jpg">
-  <img class="mySlides" src="2.jpg">
-  <img class="mySlides" src="3.jpg">
-  <img class="mySlides" src="4.jpg">
+	<div>
+  <img class="mySlides" src="images/1.jpg">
+  <img class="mySlides" src="images/2.jpg">
+  <img class="mySlides" src="images/3.jpg">
+  <img class="mySlides" src="images/4.jpg">
+  <img class="mySlides" src="images/5.jpg">
 </div>
 <div>
 	<ul id="navbar">
 		<div class="dropdown">
 			<li class="dropbtn">ABOUT</li>
 				<div class="dropdown-content">
-					<a href="#">history</a>
-					<a href="#">vision</a>
+					<a href="about.html">organization structure</a>
+					<a href="vision.html">vision</a>
 				</div>
 		</div>
 		<div class="dropdown">
 			<li class="dropbtn">ADMISSIONS</li>
 				<div class="dropdown-content">
-					<a href="#">admission process</a>
-					<a href="#">enquiry</a>
-					<a href="#">online exam</a>
-					<a href="#">academic calender</a>
+					<a href="admission.html">admission process</a>
+					<a href="query.html">enquiry</a>
+					<a href="exam.html">online exam</a>
+					<a href="calender.pdf">academic calender</a>
 				</div>
 		</div>
 		<div class="dropdown">
 			<li class="dropbtn">ACHIVEMENTS</li>
 				<div class="dropdown-content">
-					<a href="#">statelevel</a>
-					<a href="#">national level</a>
+					<a href="state.html">statelevel</a>
+					<a href="national.html">national level</a>
 				</div>
 		</div>
 		<div class="dropdown">
 			<li class="dropbtn">EVENTS</li>
 				<div class="dropdown-content">
-					<a href="#">annual fest</a>
-					<a href="#">farewell</a>
-					<a href="#">cultural fest</a>
-					<a href="#">childrens day</a>
+					<a href="annual.html">annual fest</a>
+					<a href="farewell.html">farewell</a>
+					<a href="fest.html">cultural fest</a>
+					<a href="childrens.html">childrens day</a>
 				</div>
 		</div>
 		<div class="dropdown">
 			<li class="dropbtn">SPORTS</li>
 				<div class="dropdown-content">
-					<a href="#">games</a>
-					<a href="#">gallery</a>
+					<a href="games.html">games</a>
+					<a href="gallery.html">gallery</a>
 				</div>
 		</div>
 		<div class="dropdown">
 			<li class="dropbtn">CAMPUS</li>
 				<div class="dropdown-content">
-					<a href="#">Library</a>
-					<a href="#">Lab</a>
-					<a href="#">Mess</a>
-					<a href="#">hostels</a>
+					<a href="library.html">Library</a>
+					<a href="labs.html">Lab</a>
+					<a href="mess.html">Mess</a>
+					<a href="hostel.html">hostels</a>
 				</div>
 		</div>
 		<div class="dropdown">
 			<li class="dropbtn">BRANCHES</li>
 				<div class="dropdown-content">
-					<a href="#">List</a>
+					<a href="branches.html">List</a>
 				</div>
 		</div>
 	</ul>
 	<p ></p>
 </div>
 </div>
-<div>
+<div style="margin-top: -15px">
 	<table>
 		<tr>
-			<td width="60%">
-				<h1 align="center">ABOUT</h1>
+			<td  class="about" width="60%">
+				<h3>ABOUT</h3>
+				<p>
+				National Institute of Technology Delhi (NITD) is one of the thirty NIT (s) established in the year 2010 by an act of parliament and has been declared as an Institute of National importance. NIT Delhi is an autonomous Institute which functions under the aegis of Ministry of Human Resource Development, Government of India. It aims to provide instructions and research facilities in various disciplines of Engineering, Science and Technology, Management, Social Sciences and Humanities for advance learning and dissemination of knowledge. The mission of NIT Delhi is to produce human resource those who are creative, competitive and innovative with high intellect and ethical values. The Institute is imparting holistic education, along with inculcating high moral values in its students.
+				</p>
 			</td>
-			<td>
-				<h1 align="center">NOTICE BOARD</h1>
+			<td  id="notice">
+				<h3 align="center">NOTICE BOARD</h3>
+				<table>
+					<tr>
+						<th>
+							<td>notices</td>
+						</th>
+						<th>
+							<td>updates</td>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<td>tenders</td>
+						</th>
+						<th>
+							<td>results</td>
+						</th>
+					</tr>
+				</table>
 			</td>
 		</tr>
 	</table>
@@ -123,7 +147,7 @@ function carousel() {
     slideIndex++;
     if (slideIndex > x.length) {slideIndex = 1}
     x[slideIndex-1].style= "width:100%;height:500px";
-    setTimeout(carousel, 2000); // Change image every 2 seconds
+    setTimeout(carousel, 3000); // Change image every 2 seconds
 }
 </script>
 
